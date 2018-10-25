@@ -27,9 +27,8 @@
 #images {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
-    
     width: 75%
     
 }
@@ -50,6 +49,8 @@ img {
     #maincontainer {
         display: flex;
         flex-direction: row;
+        flex-wrap: wrap;
+        
         width: 100%;  
 
             
@@ -69,9 +70,10 @@ img {
     }
 
     img {
-        flex: 1 0 10%;
-        margin: 10px;
-        width: 30%;
+        flex: 0 0 10%;
+    
+        width: calc(50% - 20px);
+        
         
         
        
