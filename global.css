@@ -8,6 +8,7 @@
     width: 80%;
     margin: auto;
     overflow: scroll;
+    
      
     
     
@@ -20,11 +21,16 @@
     border: 2px solid black;
     align-self: center; 
     text-align: center;
-    width: 20%;
-    height: 100%;  
+    width: 25%;
+    flex-basis: fit-content;
+    height: 95%;  
     position: sticky;
-    top: 0;
-    
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 3%;
+     
 }
 
 
@@ -64,6 +70,7 @@ img {
         align-content: center;
         height: 15%;
         position: relative;
+        justify-content: space-around;
         
         
     }
@@ -71,19 +78,12 @@ img {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-around;
-
     }
 
     img {
-        
-    
-        width: calc(50% - 20px);
-        
-        
-        
-       
-        
+        box-sizing: border-box;
+        width: calc(50%); 
+        height: calc(20%)  
     }
     
 
